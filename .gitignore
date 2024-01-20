@@ -3,6 +3,8 @@ Intermediate/*
 Plugins/*/Intermediate/*
 DerivedDataCache/*
 Saved/*
+Binaries/*
+Plugins/*/Binaries/*
 *_BuiltData.uasset
 *.xcodeproj
 *.xcworkspace
