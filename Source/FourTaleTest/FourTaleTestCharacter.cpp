@@ -123,7 +123,6 @@ void AFourTaleTestCharacter::Look(const FInputActionValue& Value)
 
 	if (Controller != nullptr)
 	{
-		// Добавил ограничение по Z прицеливанию
 		AddControllerYawInput(LookAxisVector.X);
 		AddControllerPitchInput(LookAxisVector.Y);
 	}
