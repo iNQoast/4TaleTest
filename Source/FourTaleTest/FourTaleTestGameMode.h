@@ -13,6 +13,18 @@ class AFourTaleTestGameMode : public AGameModeBase
 
 public:
 	AFourTaleTestGameMode();
+
+	//void GameTimer();
+	//void TimerTick();
+	//void GameEnd();
+	
+	FTimerHandle GameTimerHandle;
+
+protected:
+
+	UPROPERTY(EditDefaultsOnly, Category = "GameplaySetting")
+	float RoundTime;
+
 };
 
 

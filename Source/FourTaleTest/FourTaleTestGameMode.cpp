@@ -3,6 +3,7 @@
 #include "FourTaleTestGameMode.h"
 #include "FourTaleTestCharacter.h"
 #include "UObject/ConstructorHelpers.h"
+#include "TimerManager.h"
 
 AFourTaleTestGameMode::AFourTaleTestGameMode()
 {
@@ -12,4 +13,27 @@ AFourTaleTestGameMode::AFourTaleTestGameMode()
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+
+#define PrintString(String) GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::White, String)
+
+//	void GameTimer();
+
+//	{
+
+//		GetWorld()->GetTimerManager().SetTimer(GameTimerHandle, this, TimerTick, 1.f, true);
+
+//	}
+
+//	void TimerTick();
+//	{
+//		RoundTime = RoundTime - 1;
+
+//		if (RoundTime <= 0)
+//		{
+
+//			GameEnd;
+
+//		}
+//	}
 }
+
